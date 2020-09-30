@@ -49,6 +49,7 @@ first_article_title = articles[0]['title']
 ```
 
 Get the latest news from [nytimes.com](https://www.nytimes.com/) **politics** feed
+***check whether the topic is supported or the website is available ,if either of them is not corret or doesn't exist then it will not fetch the content from the internet*** 
 
 ```python
 nc = Newscatcher(website = 'nytimes.com', topic = 'politics')
